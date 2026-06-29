@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const Review = require("./review.js");
 const listingSchema = new Schema({
     title: {
-        //sdfsdg
+        
         type: String,
         required: true,
     },
